@@ -47,4 +47,6 @@ for i in range(20):
     y = rand.randint(0, 20)
     answer = 1 if line(x) - y < 0 else -1
 
-    data.append
+    data.append(Trainer(x, y, answer))
+
+    print ("(", x, ",",y,") => ", answer)
